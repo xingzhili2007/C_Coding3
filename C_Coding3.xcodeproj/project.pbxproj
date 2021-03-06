@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8A967A325F36369001A8605 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A967A225F36369001A8605 /* main.cpp */; };
+		F8A967AD25F3681E001A8605 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A967A225F36369001A8605 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		F8A9679F25F36369001A8605 /* C_Coding3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Coding3; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A967A225F36369001A8605 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8A967AF25F36861001A8605 /* C_Coding3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = C_Coding3.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 				F8A967A025F36369001A8605 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		F8A967A025F36369001A8605 /* Products */ = {
 			isa = PBXGroup;
@@ -57,6 +59,7 @@
 		F8A967A125F36369001A8605 /* C_Coding3 */ = {
 			isa = PBXGroup;
 			children = (
+				F8A967AF25F36861001A8605 /* C_Coding3.entitlements */,
 				F8A967A225F36369001A8605 /* main.cpp */,
 			);
 			path = C_Coding3;
@@ -96,7 +99,7 @@
 				};
 			};
 			buildConfigurationList = F8A9679A25F36369001A8605 /* Build configuration list for PBXProject "C_Coding3" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -118,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A967A325F36369001A8605 /* main.cpp in Sources */,
+				F8A967AD25F3681E001A8605 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,9 +242,12 @@
 		F8A967A725F36369001A8605 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = C_Coding3/C_Coding3.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A5XF8KAY5;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,9 +255,12 @@
 		F8A967A825F36369001A8605 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = C_Coding3/C_Coding3.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A5XF8KAY5;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
