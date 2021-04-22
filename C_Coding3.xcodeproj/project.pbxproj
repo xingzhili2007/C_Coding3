@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F8A967AD25F3681E001A8605 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A967A225F36369001A8605 /* main.cpp */; };
+		F8C813FA25F36EAB007B6A88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8C813F925F36EAB007B6A88 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F8A9679D25F36369001A8605 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F8C813F525F36EAB007B6A88 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,10 +36,19 @@
 		F8A9679F25F36369001A8605 /* C_Coding3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Coding3; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A967A225F36369001A8605 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8A967AF25F36861001A8605 /* C_Coding3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = C_Coding3.entitlements; sourceTree = "<group>"; };
+		F8C813F725F36EAB007B6A88 /* P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C813F925F36EAB007B6A88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F8A9679C25F36369001A8605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C813F425F36EAB007B6A88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				F8A967A125F36369001A8605 /* C_Coding3 */,
+				F8C813F825F36EAB007B6A88 /* P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G */,
 				F8A967A025F36369001A8605 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				F8A9679F25F36369001A8605 /* C_Coding3 */,
+				F8C813F725F36EAB007B6A88 /* P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +84,14 @@
 				F8A967A225F36369001A8605 /* main.cpp */,
 			);
 			path = C_Coding3;
+			sourceTree = "<group>";
+		};
+		F8C813F825F36EAB007B6A88 /* P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G */ = {
+			isa = PBXGroup;
+			children = (
+				F8C813F925F36EAB007B6A88 /* main.cpp */,
+			);
+			path = "P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +114,23 @@
 			productReference = F8A9679F25F36369001A8605 /* C_Coding3 */;
 			productType = "com.apple.product-type.tool";
 		};
+		F8C813F625F36EAB007B6A88 /* P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C813FD25F36EAB007B6A88 /* Build configuration list for PBXNativeTarget "P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G" */;
+			buildPhases = (
+				F8C813F325F36EAB007B6A88 /* Sources */,
+				F8C813F425F36EAB007B6A88 /* Frameworks */,
+				F8C813F525F36EAB007B6A88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G";
+			productName = "P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G";
+			productReference = F8C813F725F36EAB007B6A88 /* P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +140,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					F8A9679E25F36369001A8605 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F8C813F625F36EAB007B6A88 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -112,6 +161,7 @@
 			projectRoot = "";
 			targets = (
 				F8A9679E25F36369001A8605 /* C_Coding3 */,
+				F8C813F625F36EAB007B6A88 /* P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A967AD25F3681E001A8605 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C813F325F36EAB007B6A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C813FA25F36EAB007B6A88 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A5XF8KAY5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -260,7 +318,27 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A5XF8KAY5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8C813FB25F36EAB007B6A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8C813FC25F36EAB007B6A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -282,6 +360,15 @@
 			buildConfigurations = (
 				F8A967A725F36369001A8605 /* Debug */,
 				F8A967A825F36369001A8605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C813FD25F36EAB007B6A88 /* Build configuration list for PBXNativeTarget "P2341 [USACO03FALL][HAOI2006]受欢迎的牛 G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C813FB25F36EAB007B6A88 /* Debug */,
+				F8C813FC25F36EAB007B6A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
